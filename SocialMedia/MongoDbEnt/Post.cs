@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialMedia
+namespace SocialMedia.MongoDbEnt
 {
-    class Program
+    public class Post
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

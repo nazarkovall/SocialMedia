@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA425BAA-F655-446C-B380-FCC791CE5B9E}</ProjectGuid>
+    <ProjectGuid>{194D0805-CC6F-4A2A-AC62-DA54CDA6506F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SocialMedia</RootNamespace>
-    <AssemblyName>SocialMedia</AssemblyName>
+    <RootNamespace>SocialMedia.Menu</RootNamespace>
+    <AssemblyName>SocialMedia.Menu</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MongoDB.cs" />
-    <Compile Include="MongoDbEnt\Comment.cs" />
-    <Compile Include="MongoDbEnt\Post.cs" />
-    <Compile Include="MongoDbEnt\User.cs" />
-    <Compile Include="Neo4J.cs" />
-    <Compile Include="Neo4jEnt\User.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
