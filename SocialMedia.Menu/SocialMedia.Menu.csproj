@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SocialMedia\SocialMedia.csproj">
+      <Project>{ca425baa-f655-446c-b380-fcc791ce5b9e}</Project>
+      <Name>SocialMedia</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
